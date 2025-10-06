@@ -5,6 +5,8 @@ def output_word_with_dash(input_words: str) -> str:
     :return: string with dashes instead of spaces
     >>> output_word_with_dash("Python C# Pascal")
     'Python-C#-Pascal'
+    >>> output_word_with_dash("")
+    ''
     """
     output = input_words.replace(" ", "-")
     return (output)
