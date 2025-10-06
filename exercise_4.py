@@ -1,6 +1,6 @@
-input_decimal_number = input("Enter a decimal number: ")
-input_octal_number = input("Enter an octal number: ")
-input_hex_number = input("Enter a hexadecimal number: ")
+# input_decimal_number = input("Enter a decimal number: ")
+# input_octal_number = input("Enter an octal number: ")
+# input_hex_number = input("Enter a hexadecimal number: ")
 
 octal_switch = {
     "0": "000",
@@ -60,8 +60,46 @@ def hex_or_oct_to_binary(input, input_base):
         output_str_binary = output_str_binary[1:]
     return output_str_binary
 
-print("Десятичному числу " + input_decimal_number + " соответствует:\n" +
-      ("двоичное число " + "".join(decimal_to_binary(int(input_decimal_number)))) + "\n" +
-      ("восьмеричное число " + hex_or_oct_to_binary(input_octal_number, 8) + "\n" +
-      ("шестнадцатеричное число " + hex_or_oct_to_binary(input_hex_number, 16))))
+# print("Десятичному числу " + input_decimal_number + " соответствует:\n" +
+#       ("двоичное число " + "".join(decimal_to_binary(int(input_decimal_number)))) + "\n" +
+#       ("восьмеричное число " + hex_or_oct_to_binary(input_octal_number, 8) + "\n" +
+#       ("шестнадцатеричное число " + hex_or_oct_to_binary(input_hex_number, 16))))
+
+def convert_dec_bin(num):
+    return bin(num)[2:]
+
+def convert_oct_bin(num):
+    int_num = int(num, 8)
+    print(int_num, type(int_num))
+    return bin(int_num)[2:]
+
+def convert_hex_bin(num):
+    int_num = int(num, 16)
+    print(int_num, type(int_num))
+    return bin(int_num)[2:]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+print(convert_dec_bin(8))
+print(convert_oct_bin("23"))
+print(convert_hex_bin("F5"))
 

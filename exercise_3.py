@@ -1,4 +1,4 @@
-input_number = int(input("Enter a decimal number: "))
+#input_number = int(input("Enter a decimal number: "))
 
 def make_binary_octa_or_hex_number(base, decimal):
     output_digits_binary = []
@@ -27,10 +27,37 @@ def make_binary_octa_or_hex_number(base, decimal):
     output_digits_binary.reverse()
     return output_digits_binary
 
+def make_convert(int_number:int) -> tuple:
+    """
+    function convert from decimal to bin, oct and hex
+    :param input_number: integer positive value
+    :return: tuple with string value
+    >>> make_convert(168)
+    ('10101000', '250', 'a8')
+    >>> make_convert(145)
+    ('10010001', '221', '91')
+    """
+    if type(int_number) not in [int]:
+        raise TypeError("Int number must be a decimal integer number")
+    if int_number <= 0:
+        raise ValueError("Int number must be a positive number")
+    return bin(int_number)[2:], oct(int_number)[2:], hex(int_number)[2:]
 
-print("Десятичному числу " + str(input_number) + " соответствует:\n" +
-      ("двоичное число " + "".join(make_binary_octa_or_hex_number(2, input_number))) + "\n" +
-      ("восьмеричное число " + "".join(make_binary_octa_or_hex_number(8, input_number))) + "\n" +
-      ("шестнадцатеричное число " + "".join(make_binary_octa_or_hex_number(16, input_number))))
+print(make_convert(-250))
 
+# print("Десятичному числу " + str(input_number) + " соответствует:\n" +
+#       ("двоичное число " + "".join(make_binary_octa_or_hex_number(2, input_number))) + "\n" +
+#       ("восьмеричное число " + "".join(make_binary_octa_or_hex_number(8, input_number))) + "\n" +
+#       ("шестнадцатеричное число " + "".join(make_binary_octa_or_hex_number(16, input_number))))
 
+def my_function(x, y):
+    """
+
+    Args:
+        x:
+        y:
+
+    Returns:
+
+    >>>
+    """
