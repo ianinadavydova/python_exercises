@@ -55,11 +55,9 @@ def convert_oct_bin(num: str) -> str:
        converts octagonal number to binary without '0b' prefix.
 
        >>> convert_oct_bin('17')
-       15 <class 'int'>
        '1111'
        """
     int_num = int(num, 8)
-    print(int_num, type(int_num))
     return bin(int_num)[2:]
 
 def convert_hex_bin(num: str) -> str:
@@ -67,11 +65,9 @@ def convert_hex_bin(num: str) -> str:
     converts hexagonal number to binary without prefix '0b'.
 
     >>> convert_hex_bin('1A')
-    26 <class 'int'>
     '11010'
     """
     int_num = int(num, 16)
-    print(int_num, type(int_num))
     return bin(int_num)[2:]
 
 def align_numbers(input_2_digits_number, input_3_digits_number, input_4_digits_number) -> str:
@@ -79,14 +75,15 @@ def align_numbers(input_2_digits_number, input_3_digits_number, input_4_digits_n
            + f"{input_3_digits_number:>4}" + "\n"
            + f"{input_4_digits_number:>4}")
 
-def print_square_of_figures(input_s_rectangle, input_s_triangle):
-    """
-    Prints squares of figures in formatted variant.
-    >>> print_square_of_figures(5, 3)
-    Sп = 5.00; Sт = 3.00.
-    >>> print_square_of_figures(2.345, 7.891)
-    Sп = 2.35; Sт = 7.89.
-    """
-    print(f"Sп = {float(input_s_rectangle):.2f}; Sт = {float(input_s_triangle):.2f}.")
+def print_square_of_figures(input_s_rectangle, input_s_triangle) -> str:
+        """
+        Returns formatted string with squares of figures.
+        >>> print_square_of_figures(5, 3)
+        'Sп = 5.00; Sт = 3.00.'
+        >>> print_square_of_figures(2.345, 7.891)
+        'Sп = 2.35; Sт = 7.89.'
+        """
+        output = f"Sп = {float(input_s_rectangle):.2f}; Sт = {float(input_s_triangle):.2f}."
+        return output
 
 
