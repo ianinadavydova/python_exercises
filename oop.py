@@ -20,7 +20,7 @@ class Student:
         self.course = course
         self.specialty = specialty
         self.group = group
-        self.expelled = expelled  # статус (True = отчислен)
+        self.expelled = expelled
 
     def change_faculty(self, new_faculty):
         self.faculty = new_faculty
@@ -63,7 +63,7 @@ def main():
         Student("Smith", "John", "Johnovich", 16, "male", "Science", 1, "Programming", "group1", False),
         Student("Petrova", "Jana", "Petrovna", 77, "female", "Economy", 3, "Business", "group2", False),
         Student("Super", "Peter", "Super puper", 22, "male", "Rocket science", 4, "Space engineering", "group3", False),
-        Student()
+        Student(last_name="Haha", first_name=50, patronymic="Vasilevich", age=20, gender="male", faculty="Programming", course=4, specialty="Python" , group="group3", expelled=False)
     ]
 
     print("students info:")

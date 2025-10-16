@@ -86,4 +86,9 @@ def print_square_of_figures(input_s_rectangle, input_s_triangle) -> str:
         output = f"Sп = {float(input_s_rectangle):.2f}; Sт = {float(input_s_triangle):.2f}."
         return output
 
+if __name__ == "__main__":
+    print(convert_hex_bin("5f"))
+    import doctest
+    print(doctest.testmod(verbose=True))
+
 
