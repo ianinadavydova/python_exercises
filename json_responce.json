@@ -1,0 +1,2600 @@
+{
+  "timestamp": "2025-10-30T16:34:41",
+  "status_code": 1000,
+  "status_message": "Success",
+  "data": [
+    {
+      "country_code": "NL",
+      "party_id": "ECO",
+      "id": "51959e26-418f-11eb-a9bd-42010a840003",
+      "address": "Rastplatz Suhr A1",
+      "city": "Hunzenschwil",
+      "state": "Aargau",
+      "postal_code": "5502",
+      "country": "CHE",
+      "coordinates": {
+        "latitude": "47.3805486",
+        "longitude": "8.10911513"
+      },
+      "publish": true,
+      "last_updated": "2025-10-30T16:19:10Z",
+      "evses": [
+        {
+          "uid": "5000331",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "id": "1",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:26:15Z",
+              "max_electric_power": 300000,
+              "max_voltage": 600,
+              "max_amperage": 500
+            }
+          ],
+          "last_updated": "2025-10-30T11:36:32Z",
+          "physical_reference": "4130101",
+          "evse_id": "CHFASE4130101",
+          "hardware_manufacturer": "alpitronic GmbH",
+          "hardware_class": null,
+          "hardware_model": "HYC300",
+          "cpo_external_id": "50198",
+          "max_hardware_voltage": 1000,
+          "max_hardware_amperage": 500
+        },
+        {
+          "uid": "5000332",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "id": "2",
+              "standard": "CHADEMO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:26:15Z",
+              "max_electric_power": 50000,
+              "max_voltage": 400,
+              "max_amperage": 125
+            },
+            {
+              "id": "3",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:26:15Z",
+              "max_electric_power": 300000,
+              "max_voltage": 600,
+              "max_amperage": 500
+            }
+          ],
+          "last_updated": "2025-10-30T13:33:05Z",
+          "physical_reference": "4130102",
+          "evse_id": "CHFASE4130102",
+          "hardware_manufacturer": "alpitronic GmbH",
+          "hardware_class": null,
+          "hardware_model": "HYC300",
+          "cpo_external_id": "50198",
+          "max_hardware_voltage": 1000,
+          "max_hardware_amperage": 500
+        },
+        {
+          "uid": "5000333",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "id": "1",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:26:15Z",
+              "max_electric_power": 300000,
+              "max_voltage": 600,
+              "max_amperage": 500
+            }
+          ],
+          "last_updated": "2025-10-30T13:58:20Z",
+          "physical_reference": "4130103",
+          "evse_id": "CHFASE4130103",
+          "hardware_manufacturer": "alpitronic GmbH",
+          "hardware_class": null,
+          "hardware_model": "HYC300",
+          "cpo_external_id": "50198",
+          "max_hardware_voltage": 1000,
+          "max_hardware_amperage": 500
+        },
+        {
+          "uid": "5000334",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "id": "2",
+              "standard": "CHADEMO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:26:15Z",
+              "max_electric_power": 50000,
+              "max_voltage": 400,
+              "max_amperage": 125
+            },
+            {
+              "id": "3",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:26:15Z",
+              "max_electric_power": 300000,
+              "max_voltage": 600,
+              "max_amperage": 500
+            }
+          ],
+          "last_updated": "2025-10-30T16:19:10Z",
+          "physical_reference": "4130104",
+          "evse_id": "CHFASE4130104",
+          "hardware_manufacturer": "alpitronic GmbH",
+          "hardware_class": null,
+          "hardware_model": "HYC300",
+          "cpo_external_id": "50198",
+          "max_hardware_voltage": 1000,
+          "max_hardware_amperage": 500
+        }
+      ],
+      "opening_times": {
+        "twentyfourseven": true
+      },
+      "parking_type": "ALONG_MOTORWAY",
+      "name": "Fastned Suhr",
+      "operator": {
+        "name": "Fastned",
+        "website": "https:\/\/fastnedcharging.com\/",
+        "logo": {
+          "url": "https:\/\/content.presspage.com\/uploads\/2519\/500_fastnedlogo-2.jpg",
+          "category": "NETWORK",
+          "type": "jpeg",
+          "height": 400,
+          "width": 400
+        }
+      },
+      "owner": {
+        "name": "Fastned",
+        "website": "https:\/\/fastnedcharging.com\/",
+        "logo": {
+          "url": "https:\/\/content.presspage.com\/uploads\/2519\/500_fastnedlogo-2.jpg",
+          "category": "NETWORK",
+          "type": "jpeg",
+          "height": 400,
+          "width": 400
+        }
+      },
+      "brand_name": {
+        "name": "Fastned",
+        "website": "https:\/\/fastnedcharging.com\/",
+        "logo": {
+          "url": "https:\/\/content.presspage.com\/uploads\/2519\/500_fastnedlogo-2.jpg",
+          "category": "NETWORK",
+          "type": "jpeg",
+          "height": 400,
+          "width": 400
+        }
+      },
+      "time_zone": "Europe\/Zurich",
+      "charging_when_closed": true,
+      "access_type": "Public",
+      "related_locations": [
+        {
+          "latitude": "47.3806849",
+          "longitude": "8.1091558",
+          "name": {
+            "language": "de",
+            "text": "Paula's Bahnissimo (Fast food)"
+          }
+        }
+      ],
+      "support_phone_number": "+(41)-(78)-8442070",
+      "energy_mix": {
+        "is_green_energy": true
+      },
+      "heavy_vehicles": {
+        "heavy_vehicles_height": null,
+        "heavy_vehicles_width": null,
+        "heavy_vehicles_length": null,
+        "heavy_vehicles_mass": null,
+        "heavy_vehicles_restrictions": [
+          "N1",
+          "N2"
+        ],
+        "heavy_vehicles_dedicated": false
+      },
+      "administrative_areas": {
+        "state_province": "Aargau",
+        "municipality": "Lenzburg"
+      },
+      "charging_behaviour": {
+        "code": "1",
+        "description": "Mainly morning charging, and some mixed afternoon and evening charging."
+      },
+      "location_type": [
+        {
+          "code": "ALONG_MOTORWAY",
+          "description": "ALONG_MOTORWAY"
+        }
+      ],
+      "adhoc_authorisation_payment_method": [
+        {
+          "code": "TERMINAL_IN_APP",
+          "description": ""
+        },
+        {
+          "code": "SERVICE_PROVIDER_RFID_CARD",
+          "description": ""
+        },
+        {
+          "code": "TERMINAL_CREDIT_CARD",
+          "description": ""
+        }
+      ],
+      "number_physical_units": 3,
+      "restrictions": []
+    },
+    {
+      "country_code": "NL",
+      "party_id": "ECO",
+      "id": "a2ec0c0e-29c5-11ed-bb75-42010aa40fc0",
+      "address": "Industriestrasse 40",
+      "city": "Lenzburg",
+      "state": "Aargau",
+      "postal_code": "5600",
+      "country": "CHE",
+      "coordinates": {
+        "latitude": "47.39255661",
+        "longitude": "8.16015817"
+      },
+      "publish": true,
+      "last_updated": "2025-10-30T16:32:33Z",
+      "evses": [
+        {
+          "uid": "5000628",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "id": "1",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:26:16Z",
+              "max_electric_power": 300000,
+              "max_voltage": 600,
+              "max_amperage": 500
+            }
+          ],
+          "last_updated": "2025-10-30T09:14:06Z",
+          "physical_reference": "4130201",
+          "evse_id": "CHFASE4130201",
+          "hardware_manufacturer": "alpitronic GmbH",
+          "hardware_class": null,
+          "hardware_model": "HYC300",
+          "cpo_external_id": "50231",
+          "max_hardware_voltage": 1000,
+          "max_hardware_amperage": 500
+        },
+        {
+          "uid": "5000629",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "id": "2",
+              "standard": "CHADEMO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:26:16Z",
+              "max_electric_power": 50000,
+              "max_voltage": 400,
+              "max_amperage": 125
+            },
+            {
+              "id": "3",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:26:16Z",
+              "max_electric_power": 300000,
+              "max_voltage": 600,
+              "max_amperage": 500
+            }
+          ],
+          "last_updated": "2025-10-30T16:13:08Z",
+          "physical_reference": "4130202",
+          "evse_id": "CHFASE4130202",
+          "hardware_manufacturer": "alpitronic GmbH",
+          "hardware_class": null,
+          "hardware_model": "HYC300",
+          "cpo_external_id": "50231",
+          "max_hardware_voltage": 1000,
+          "max_hardware_amperage": 500
+        },
+        {
+          "uid": "5000630",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "id": "1",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:26:16Z",
+              "max_electric_power": 300000,
+              "max_voltage": 600,
+              "max_amperage": 500
+            }
+          ],
+          "last_updated": "2025-10-30T16:32:33Z",
+          "physical_reference": "4130203",
+          "evse_id": "CHFASE4130203",
+          "hardware_manufacturer": "alpitronic GmbH",
+          "hardware_class": null,
+          "hardware_model": "HYC300",
+          "cpo_external_id": "50231",
+          "max_hardware_voltage": 1000,
+          "max_hardware_amperage": 500
+        },
+        {
+          "uid": "5000631",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "id": "2",
+              "standard": "CHADEMO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:26:16Z",
+              "max_electric_power": 50000,
+              "max_voltage": 400,
+              "max_amperage": 125
+            },
+            {
+              "id": "3",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:26:16Z",
+              "max_electric_power": 300000,
+              "max_voltage": 600,
+              "max_amperage": 500
+            }
+          ],
+          "last_updated": "2025-10-30T16:32:33Z",
+          "physical_reference": "4130204",
+          "evse_id": "CHFASE4130204",
+          "hardware_manufacturer": "alpitronic GmbH",
+          "hardware_class": null,
+          "hardware_model": "HYC300",
+          "cpo_external_id": "50231",
+          "max_hardware_voltage": 1000,
+          "max_hardware_amperage": 500
+        }
+      ],
+      "opening_times": {
+        "twentyfourseven": true
+      },
+      "parking_type": "ON_STREET",
+      "name": "Fastned Lenzburg",
+      "operator": {
+        "name": "Fastned",
+        "website": "https:\/\/fastnedcharging.com\/",
+        "logo": {
+          "url": "https:\/\/content.presspage.com\/uploads\/2519\/500_fastnedlogo-2.jpg",
+          "category": "NETWORK",
+          "type": "jpeg",
+          "height": 400,
+          "width": 400
+        }
+      },
+      "owner": {
+        "name": "Fastned",
+        "website": "https:\/\/fastnedcharging.com\/",
+        "logo": {
+          "url": "https:\/\/content.presspage.com\/uploads\/2519\/500_fastnedlogo-2.jpg",
+          "category": "NETWORK",
+          "type": "jpeg",
+          "height": 400,
+          "width": 400
+        }
+      },
+      "brand_name": {
+        "name": "Fastned",
+        "website": "https:\/\/fastnedcharging.com\/",
+        "logo": {
+          "url": "https:\/\/content.presspage.com\/uploads\/2519\/500_fastnedlogo-2.jpg",
+          "category": "NETWORK",
+          "type": "jpeg",
+          "height": 400,
+          "width": 400
+        }
+      },
+      "time_zone": "Europe\/Zurich",
+      "charging_when_closed": true,
+      "access_type": "Public",
+      "related_locations": [],
+      "support_phone_number": "+(41)-(78)-8442070",
+      "energy_mix": {
+        "is_green_energy": true
+      },
+      "heavy_vehicles": {
+        "heavy_vehicles_height": null,
+        "heavy_vehicles_width": null,
+        "heavy_vehicles_length": null,
+        "heavy_vehicles_mass": null,
+        "heavy_vehicles_restrictions": [
+          "N1",
+          "N2"
+        ],
+        "heavy_vehicles_dedicated": false
+      },
+      "administrative_areas": {
+        "state_province": "Aargau",
+        "municipality": "Lenzburg"
+      },
+      "charging_behaviour": {
+        "code": "1",
+        "description": "Mainly morning charging, and some mixed afternoon and evening charging."
+      },
+      "location_type": [
+        {
+          "code": "ON_STREET",
+          "description": "ON_STREET"
+        }
+      ],
+      "adhoc_authorisation_payment_method": [
+        {
+          "code": "TERMINAL_IN_APP",
+          "description": ""
+        },
+        {
+          "code": "SERVICE_PROVIDER_RFID_CARD",
+          "description": ""
+        },
+        {
+          "code": "TERMINAL_CREDIT_CARD",
+          "description": ""
+        }
+      ],
+      "number_physical_units": 3,
+      "restrictions": []
+    },
+    {
+      "country_code": "NL",
+      "party_id": "ECO",
+      "id": "34783830-813e-11ed-b343-42010aa40010",
+      "address": "Apfelwuhr",
+      "city": "Zizers",
+      "state": "Graub\u00fcnden",
+      "postal_code": "7205",
+      "country": "CHE",
+      "coordinates": {
+        "latitude": "46.9576407",
+        "longitude": "9.5488899"
+      },
+      "publish": true,
+      "last_updated": "2025-10-30T13:56:52Z",
+      "evses": [
+        {
+          "uid": "5002431",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "id": "1",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:26:52Z",
+              "max_electric_power": 300000,
+              "max_voltage": 600,
+              "max_amperage": 500
+            }
+          ],
+          "last_updated": "2025-10-30T13:03:57Z",
+          "physical_reference": "4150401",
+          "evse_id": "CHFASE4150401",
+          "hardware_manufacturer": "alpitronic GmbH",
+          "hardware_class": null,
+          "hardware_model": "HYC300",
+          "cpo_external_id": "50819",
+          "max_hardware_voltage": 1000,
+          "max_hardware_amperage": 500
+        },
+        {
+          "uid": "5002432",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "id": "2",
+              "standard": "CHADEMO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:26:52Z",
+              "max_electric_power": 50000,
+              "max_voltage": 400,
+              "max_amperage": 125
+            },
+            {
+              "id": "3",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:26:52Z",
+              "max_electric_power": 300000,
+              "max_voltage": 600,
+              "max_amperage": 500
+            }
+          ],
+          "last_updated": "2025-10-30T12:31:52Z",
+          "physical_reference": "4150402",
+          "evse_id": "CHFASE4150402",
+          "hardware_manufacturer": "alpitronic GmbH",
+          "hardware_class": null,
+          "hardware_model": "HYC300",
+          "cpo_external_id": "50819",
+          "max_hardware_voltage": 1000,
+          "max_hardware_amperage": 500
+        },
+        {
+          "uid": "5002433",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "id": "1",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:26:52Z",
+              "max_electric_power": 300000,
+              "max_voltage": 600,
+              "max_amperage": 500
+            }
+          ],
+          "last_updated": "2025-10-30T13:36:04Z",
+          "physical_reference": "4150403",
+          "evse_id": "CHFASE4150403",
+          "hardware_manufacturer": "alpitronic GmbH",
+          "hardware_class": null,
+          "hardware_model": "HYC300",
+          "cpo_external_id": "50819",
+          "max_hardware_voltage": 1000,
+          "max_hardware_amperage": 500
+        },
+        {
+          "uid": "5002434",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "id": "3",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:26:52Z",
+              "max_electric_power": 300000,
+              "max_voltage": 600,
+              "max_amperage": 500
+            },
+            {
+              "id": "2",
+              "standard": "CHADEMO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:26:52Z",
+              "max_electric_power": 50000,
+              "max_voltage": 400,
+              "max_amperage": 125
+            }
+          ],
+          "last_updated": "2025-10-30T13:56:52Z",
+          "physical_reference": "4150404",
+          "evse_id": "CHFASE4150404",
+          "hardware_manufacturer": "alpitronic GmbH",
+          "hardware_class": null,
+          "hardware_model": "HYC300",
+          "cpo_external_id": "50819",
+          "max_hardware_voltage": 1000,
+          "max_hardware_amperage": 500
+        }
+      ],
+      "opening_times": {
+        "twentyfourseven": true
+      },
+      "parking_type": "ALONG_MOTORWAY",
+      "name": "Fastned Apfelwuhr Nord",
+      "operator": {
+        "name": "Fastned",
+        "website": "https:\/\/fastnedcharging.com\/",
+        "logo": {
+          "url": "https:\/\/content.presspage.com\/uploads\/2519\/500_fastnedlogo-2.jpg",
+          "category": "NETWORK",
+          "type": "jpeg",
+          "height": 400,
+          "width": 400
+        }
+      },
+      "owner": {
+        "name": "Fastned",
+        "website": "https:\/\/fastnedcharging.com\/",
+        "logo": {
+          "url": "https:\/\/content.presspage.com\/uploads\/2519\/500_fastnedlogo-2.jpg",
+          "category": "NETWORK",
+          "type": "jpeg",
+          "height": 400,
+          "width": 400
+        }
+      },
+      "brand_name": {
+        "name": "Fastned",
+        "website": "https:\/\/fastnedcharging.com\/",
+        "logo": {
+          "url": "https:\/\/content.presspage.com\/uploads\/2519\/500_fastnedlogo-2.jpg",
+          "category": "NETWORK",
+          "type": "jpeg",
+          "height": 400,
+          "width": 400
+        }
+      },
+      "time_zone": "Europe\/Zurich",
+      "charging_when_closed": true,
+      "access_type": "Public",
+      "related_locations": [],
+      "support_phone_number": "+(41)-(78)-8442070",
+      "energy_mix": {
+        "is_green_energy": true
+      },
+      "heavy_vehicles": {
+        "heavy_vehicles_height": null,
+        "heavy_vehicles_width": null,
+        "heavy_vehicles_length": null,
+        "heavy_vehicles_mass": null,
+        "heavy_vehicles_restrictions": [
+          "UNKNOWN"
+        ],
+        "heavy_vehicles_dedicated": false
+      },
+      "administrative_areas": {
+        "state_province": "Graub\u00fcnden",
+        "municipality": "Landquart"
+      },
+      "charging_behaviour": {
+        "code": "1",
+        "description": "Mainly morning charging, and some mixed afternoon and evening charging."
+      },
+      "location_type": [
+        {
+          "code": "ALONG_MOTORWAY",
+          "description": "ALONG_MOTORWAY"
+        }
+      ],
+      "adhoc_authorisation_payment_method": [
+        {
+          "code": "TERMINAL_IN_APP",
+          "description": ""
+        },
+        {
+          "code": "SERVICE_PROVIDER_RFID_CARD",
+          "description": ""
+        },
+        {
+          "code": "TERMINAL_CREDIT_CARD",
+          "description": ""
+        }
+      ],
+      "number_physical_units": 3,
+      "restrictions": []
+    },
+    {
+      "country_code": "NL",
+      "party_id": "ECO",
+      "id": "c72665ca-227a-11ee-a6ad-42010aa40fc0",
+      "address": "Highway 13",
+      "city": "Zizers",
+      "state": "Graub\u00fcnden",
+      "postal_code": "7205",
+      "country": "CHE",
+      "coordinates": {
+        "latitude": "46.95733839",
+        "longitude": "9.54759661"
+      },
+      "publish": true,
+      "last_updated": "2025-10-30T16:27:21Z",
+      "evses": [
+        {
+          "uid": "5002790",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "id": "1",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:27:44Z",
+              "max_electric_power": 300000,
+              "max_voltage": 600,
+              "max_amperage": 500
+            }
+          ],
+          "last_updated": "2025-10-30T16:11:31Z",
+          "physical_reference": "4150501",
+          "evse_id": "CHFASE4150501",
+          "hardware_manufacturer": "alpitronic GmbH",
+          "hardware_class": null,
+          "hardware_model": "HYC300",
+          "cpo_external_id": "50854",
+          "max_hardware_voltage": 1000,
+          "max_hardware_amperage": 500
+        },
+        {
+          "uid": "5002791",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "id": "2",
+              "standard": "CHADEMO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:27:44Z",
+              "max_electric_power": 50000,
+              "max_voltage": 400,
+              "max_amperage": 125
+            },
+            {
+              "id": "3",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:27:45Z",
+              "max_electric_power": 300000,
+              "max_voltage": 600,
+              "max_amperage": 500
+            }
+          ],
+          "last_updated": "2025-10-30T16:27:21Z",
+          "physical_reference": "4150502",
+          "evse_id": "CHFASE4150502",
+          "hardware_manufacturer": "alpitronic GmbH",
+          "hardware_class": null,
+          "hardware_model": "HYC300",
+          "cpo_external_id": "50854",
+          "max_hardware_voltage": 1000,
+          "max_hardware_amperage": 500
+        },
+        {
+          "uid": "5002792",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "id": "1",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:27:45Z",
+              "max_electric_power": 300000,
+              "max_voltage": 600,
+              "max_amperage": 500
+            }
+          ],
+          "last_updated": "2025-10-30T16:24:07Z",
+          "physical_reference": "4150503",
+          "evse_id": "CHFASE4150503",
+          "hardware_manufacturer": "alpitronic GmbH",
+          "hardware_class": null,
+          "hardware_model": "HYC300",
+          "cpo_external_id": "50854",
+          "max_hardware_voltage": 1000,
+          "max_hardware_amperage": 500
+        },
+        {
+          "uid": "5002793",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "id": "2",
+              "standard": "CHADEMO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:27:45Z",
+              "max_electric_power": 50000,
+              "max_voltage": 400,
+              "max_amperage": 125
+            },
+            {
+              "id": "3",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:27:45Z",
+              "max_electric_power": 300000,
+              "max_voltage": 600,
+              "max_amperage": 500
+            }
+          ],
+          "last_updated": "2025-10-30T16:19:21Z",
+          "physical_reference": "4150504",
+          "evse_id": "CHFASE4150504",
+          "hardware_manufacturer": "alpitronic GmbH",
+          "hardware_class": null,
+          "hardware_model": "HYC300",
+          "cpo_external_id": "50854",
+          "max_hardware_voltage": 1000,
+          "max_hardware_amperage": 500
+        }
+      ],
+      "opening_times": {
+        "twentyfourseven": true
+      },
+      "parking_type": "ALONG_MOTORWAY",
+      "name": "Fastned Apfelwuhr S\u00fcd",
+      "operator": {
+        "name": "Fastned",
+        "website": "https:\/\/fastnedcharging.com\/",
+        "logo": {
+          "url": "https:\/\/content.presspage.com\/uploads\/2519\/500_fastnedlogo-2.jpg",
+          "category": "NETWORK",
+          "type": "jpeg",
+          "height": 400,
+          "width": 400
+        }
+      },
+      "owner": {
+        "name": "Fastned",
+        "website": "https:\/\/fastnedcharging.com\/",
+        "logo": {
+          "url": "https:\/\/content.presspage.com\/uploads\/2519\/500_fastnedlogo-2.jpg",
+          "category": "NETWORK",
+          "type": "jpeg",
+          "height": 400,
+          "width": 400
+        }
+      },
+      "brand_name": {
+        "name": "Fastned",
+        "website": "https:\/\/fastnedcharging.com\/",
+        "logo": {
+          "url": "https:\/\/content.presspage.com\/uploads\/2519\/500_fastnedlogo-2.jpg",
+          "category": "NETWORK",
+          "type": "jpeg",
+          "height": 400,
+          "width": 400
+        }
+      },
+      "time_zone": "Europe\/Zurich",
+      "charging_when_closed": true,
+      "access_type": "Public",
+      "related_locations": [],
+      "support_phone_number": "+(41)-(78)-8442070",
+      "energy_mix": {
+        "is_green_energy": true
+      },
+      "heavy_vehicles": {
+        "heavy_vehicles_height": null,
+        "heavy_vehicles_width": null,
+        "heavy_vehicles_length": null,
+        "heavy_vehicles_mass": null,
+        "heavy_vehicles_restrictions": [],
+        "heavy_vehicles_dedicated": false
+      },
+      "administrative_areas": {
+        "state_province": "Graub\u00fcnden",
+        "municipality": "Landquart"
+      },
+      "charging_behaviour": {
+        "code": "1",
+        "description": "Mainly morning charging, and some mixed afternoon and evening charging."
+      },
+      "location_type": [
+        {
+          "code": "ALONG_MOTORWAY",
+          "description": "ALONG_MOTORWAY"
+        }
+      ],
+      "adhoc_authorisation_payment_method": [
+        {
+          "code": "TERMINAL_IN_APP",
+          "description": ""
+        },
+        {
+          "code": "SERVICE_PROVIDER_RFID_CARD",
+          "description": ""
+        },
+        {
+          "code": "TERMINAL_CREDIT_CARD",
+          "description": ""
+        }
+      ],
+      "number_physical_units": 3,
+      "restrictions": []
+    },
+    {
+      "country_code": "NL",
+      "party_id": "ECO",
+      "id": "1b52c3ec-50d8-11ee-bd43-42010aa40fc0",
+      "address": "A4",
+      "city": "Z\u00fcrich",
+      "state": "Z\u00fcrich",
+      "postal_code": "8046",
+      "country": "CHE",
+      "coordinates": {
+        "latitude": "47.43072278",
+        "longitude": "8.51150552"
+      },
+      "publish": true,
+      "last_updated": "2025-10-30T16:28:46Z",
+      "evses": [
+        {
+          "uid": "5002822",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "CREDIT_CARD_PAYABLE",
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "id": "1",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:28:19Z",
+              "max_electric_power": 300000,
+              "max_voltage": 600,
+              "max_amperage": 500
+            }
+          ],
+          "last_updated": "2025-10-30T15:50:06Z",
+          "physical_reference": "4140207",
+          "evse_id": "CHFASE4140207",
+          "hardware_manufacturer": "alpitronic GmbH",
+          "hardware_class": null,
+          "hardware_model": "HYC300",
+          "cpo_external_id": "50857",
+          "max_hardware_voltage": 1000,
+          "max_hardware_amperage": 500
+        },
+        {
+          "uid": "5002823",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "CREDIT_CARD_PAYABLE",
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "id": "2",
+              "standard": "CHADEMO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:28:19Z",
+              "max_electric_power": 50000,
+              "max_voltage": 400,
+              "max_amperage": 125
+            },
+            {
+              "id": "3",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:28:19Z",
+              "max_electric_power": 300000,
+              "max_voltage": 600,
+              "max_amperage": 500
+            }
+          ],
+          "last_updated": "2025-10-30T16:28:46Z",
+          "physical_reference": "4140208",
+          "evse_id": "CHFASE4140208",
+          "hardware_manufacturer": "alpitronic GmbH",
+          "hardware_class": null,
+          "hardware_model": "HYC300",
+          "cpo_external_id": "50857",
+          "max_hardware_voltage": 1000,
+          "max_hardware_amperage": 500
+        },
+        {
+          "uid": "5002816",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "CREDIT_CARD_PAYABLE",
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "id": "1",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:28:19Z",
+              "max_electric_power": 300000,
+              "max_voltage": 600,
+              "max_amperage": 500
+            }
+          ],
+          "last_updated": "2025-10-30T15:40:31Z",
+          "physical_reference": "4140201",
+          "evse_id": "CHFASE4140201",
+          "hardware_manufacturer": "alpitronic GmbH",
+          "hardware_class": null,
+          "hardware_model": "HYC300",
+          "cpo_external_id": "50857",
+          "max_hardware_voltage": 1000,
+          "max_hardware_amperage": 500
+        },
+        {
+          "uid": "5002817",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "CREDIT_CARD_PAYABLE",
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "id": "2",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:28:19Z",
+              "max_electric_power": 300000,
+              "max_voltage": 600,
+              "max_amperage": 500
+            }
+          ],
+          "last_updated": "2025-10-30T11:28:19Z",
+          "physical_reference": "4140202",
+          "evse_id": "CHFASE4140202",
+          "hardware_manufacturer": "alpitronic GmbH",
+          "hardware_class": null,
+          "hardware_model": "HYC300",
+          "cpo_external_id": "50857",
+          "max_hardware_voltage": 1000,
+          "max_hardware_amperage": 500
+        },
+        {
+          "uid": "5002818",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "CREDIT_CARD_PAYABLE",
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "id": "1",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:28:19Z",
+              "max_electric_power": 300000,
+              "max_voltage": 600,
+              "max_amperage": 500
+            }
+          ],
+          "last_updated": "2025-10-30T15:56:58Z",
+          "physical_reference": "4140203",
+          "evse_id": "CHFASE4140203",
+          "hardware_manufacturer": "alpitronic GmbH",
+          "hardware_class": null,
+          "hardware_model": "HYC300",
+          "cpo_external_id": "50857",
+          "max_hardware_voltage": 1000,
+          "max_hardware_amperage": 500
+        },
+        {
+          "uid": "5002819",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "CREDIT_CARD_PAYABLE",
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "id": "2",
+              "standard": "CHADEMO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:28:19Z",
+              "max_electric_power": 50000,
+              "max_voltage": 400,
+              "max_amperage": 125
+            },
+            {
+              "id": "3",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:28:19Z",
+              "max_electric_power": 300000,
+              "max_voltage": 600,
+              "max_amperage": 500
+            }
+          ],
+          "last_updated": "2025-10-30T15:34:37Z",
+          "physical_reference": "4140204",
+          "evse_id": "CHFASE4140204",
+          "hardware_manufacturer": "alpitronic GmbH",
+          "hardware_class": null,
+          "hardware_model": "HYC300",
+          "cpo_external_id": "50857",
+          "max_hardware_voltage": 1000,
+          "max_hardware_amperage": 500
+        },
+        {
+          "uid": "5002820",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "CREDIT_CARD_PAYABLE",
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "id": "1",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:28:19Z",
+              "max_electric_power": 300000,
+              "max_voltage": 600,
+              "max_amperage": 500
+            }
+          ],
+          "last_updated": "2025-10-30T15:58:11Z",
+          "physical_reference": "4140205",
+          "evse_id": "CHFASE4140205",
+          "hardware_manufacturer": "alpitronic GmbH",
+          "hardware_class": null,
+          "hardware_model": "HYC300",
+          "cpo_external_id": "50857",
+          "max_hardware_voltage": 1000,
+          "max_hardware_amperage": 500
+        },
+        {
+          "uid": "5002821",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "CREDIT_CARD_PAYABLE",
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "id": "2",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:28:19Z",
+              "max_electric_power": 300000,
+              "max_voltage": 600,
+              "max_amperage": 500
+            }
+          ],
+          "last_updated": "2025-10-30T16:12:27Z",
+          "physical_reference": "4140206",
+          "evse_id": "CHFASE4140206",
+          "hardware_manufacturer": "alpitronic GmbH",
+          "hardware_class": null,
+          "hardware_model": "HYC300",
+          "cpo_external_id": "50857",
+          "max_hardware_voltage": 1000,
+          "max_hardware_amperage": 500
+        }
+      ],
+      "opening_times": {
+        "twentyfourseven": true
+      },
+      "parking_type": "ALONG_MOTORWAY",
+      "name": "Fastned B\u00fcsisee Nord",
+      "operator": {
+        "name": "Fastned",
+        "website": "https:\/\/fastnedcharging.com\/",
+        "logo": {
+          "url": "https:\/\/content.presspage.com\/uploads\/2519\/500_fastnedlogo-2.jpg",
+          "category": "NETWORK",
+          "type": "jpeg",
+          "height": 400,
+          "width": 400
+        }
+      },
+      "owner": {
+        "name": "Fastned",
+        "website": "https:\/\/fastnedcharging.com\/",
+        "logo": {
+          "url": "https:\/\/content.presspage.com\/uploads\/2519\/500_fastnedlogo-2.jpg",
+          "category": "NETWORK",
+          "type": "jpeg",
+          "height": 400,
+          "width": 400
+        }
+      },
+      "brand_name": {
+        "name": "Fastned",
+        "website": "https:\/\/fastnedcharging.com\/",
+        "logo": {
+          "url": "https:\/\/content.presspage.com\/uploads\/2519\/500_fastnedlogo-2.jpg",
+          "category": "NETWORK",
+          "type": "jpeg",
+          "height": 400,
+          "width": 400
+        }
+      },
+      "time_zone": "Europe\/Zurich",
+      "charging_when_closed": true,
+      "access_type": "Public",
+      "related_locations": [
+        {
+          "latitude": "47.4307073",
+          "longitude": "8.5117161",
+          "name": {
+            "language": "de",
+            "text": "Leng's Imbiss (Fast food)"
+          }
+        }
+      ],
+      "support_phone_number": "+(41)-(78)-8442070",
+      "energy_mix": {
+        "is_green_energy": true
+      },
+      "heavy_vehicles": {
+        "heavy_vehicles_height": null,
+        "heavy_vehicles_width": null,
+        "heavy_vehicles_length": null,
+        "heavy_vehicles_mass": null,
+        "heavy_vehicles_restrictions": [],
+        "heavy_vehicles_dedicated": false
+      },
+      "administrative_areas": {
+        "state_province": "Z\u00fcrich",
+        "municipality": "Z\u00fcrich"
+      },
+      "charging_behaviour": {
+        "code": "1",
+        "description": "Mainly morning charging, and some mixed afternoon and evening charging."
+      },
+      "location_type": [
+        {
+          "code": "ALONG_MOTORWAY",
+          "description": "ALONG_MOTORWAY"
+        }
+      ],
+      "adhoc_authorisation_payment_method": [
+        {
+          "code": "TERMINAL_IN_APP",
+          "description": ""
+        },
+        {
+          "code": "SERVICE_PROVIDER_RFID_CARD",
+          "description": ""
+        },
+        {
+          "code": "TERMINAL_CREDIT_CARD",
+          "description": ""
+        }
+      ],
+      "number_physical_units": 5,
+      "restrictions": []
+    },
+    {
+      "country_code": "NL",
+      "party_id": "ECO",
+      "id": "52b778ea-a0fc-11ee-8994-42010aa40fc0",
+      "address": "A9",
+      "city": "Montreux",
+      "state": "Waadt",
+      "postal_code": "1822",
+      "country": "CHE",
+      "coordinates": {
+        "latitude": "46.4393404",
+        "longitude": "6.91616218"
+      },
+      "publish": true,
+      "last_updated": "2025-10-30T16:22:20Z",
+      "evses": [
+        {
+          "uid": "5003030",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "CREDIT_CARD_PAYABLE",
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "id": "1",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:28:45Z",
+              "max_electric_power": 300000,
+              "max_voltage": 600,
+              "max_amperage": 500
+            },
+            {
+              "id": "2",
+              "standard": "CHADEMO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:28:45Z",
+              "max_electric_power": 50000,
+              "max_voltage": 400,
+              "max_amperage": 125
+            }
+          ],
+          "last_updated": "2025-10-30T16:22:20Z",
+          "physical_reference": "4110204",
+          "evse_id": "CHFASE4110204",
+          "hardware_manufacturer": "alpitronic GmbH",
+          "hardware_class": null,
+          "hardware_model": "HYC300",
+          "cpo_external_id": "50878",
+          "max_hardware_voltage": 1000,
+          "max_hardware_amperage": 500
+        },
+        {
+          "uid": "5003027",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "CREDIT_CARD_PAYABLE",
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "id": "1",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:28:45Z",
+              "max_electric_power": 300000,
+              "max_voltage": 600,
+              "max_amperage": 500
+            }
+          ],
+          "last_updated": "2025-10-30T12:53:33Z",
+          "physical_reference": "4110201",
+          "evse_id": "CHFASE4110201",
+          "hardware_manufacturer": "alpitronic GmbH",
+          "hardware_class": null,
+          "hardware_model": "HYC300",
+          "cpo_external_id": "50878",
+          "max_hardware_voltage": 1000,
+          "max_hardware_amperage": 500
+        },
+        {
+          "uid": "5003028",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "CREDIT_CARD_PAYABLE",
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "id": "1",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:28:45Z",
+              "max_electric_power": 300000,
+              "max_voltage": 600,
+              "max_amperage": 500
+            }
+          ],
+          "last_updated": "2025-10-30T16:17:54Z",
+          "physical_reference": "4110202",
+          "evse_id": "CHFASE4110202",
+          "hardware_manufacturer": "alpitronic GmbH",
+          "hardware_class": null,
+          "hardware_model": "HYC300",
+          "cpo_external_id": "50878",
+          "max_hardware_voltage": 1000,
+          "max_hardware_amperage": 500
+        },
+        {
+          "uid": "5003029",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "CREDIT_CARD_PAYABLE",
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "id": "1",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:28:45Z",
+              "max_electric_power": 300000,
+              "max_voltage": 600,
+              "max_amperage": 500
+            },
+            {
+              "id": "2",
+              "standard": "CHADEMO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:28:45Z",
+              "max_electric_power": 50000,
+              "max_voltage": 400,
+              "max_amperage": 125
+            }
+          ],
+          "last_updated": "2025-10-30T16:08:21Z",
+          "physical_reference": "4110203",
+          "evse_id": "CHFASE4110203",
+          "hardware_manufacturer": "alpitronic GmbH",
+          "hardware_class": null,
+          "hardware_model": "HYC300",
+          "cpo_external_id": "50878",
+          "max_hardware_voltage": 1000,
+          "max_hardware_amperage": 500
+        }
+      ],
+      "opening_times": {
+        "twentyfourseven": true
+      },
+      "parking_type": "PARKING_LOT",
+      "name": "Fastned Le Pertit Montagne",
+      "operator": {
+        "name": "Fastned",
+        "website": "https:\/\/fastnedcharging.com\/",
+        "logo": {
+          "url": "https:\/\/content.presspage.com\/uploads\/2519\/500_fastnedlogo-2.jpg",
+          "category": "NETWORK",
+          "type": "jpeg",
+          "height": 400,
+          "width": 400
+        }
+      },
+      "owner": {
+        "name": "Fastned",
+        "website": "https:\/\/fastnedcharging.com\/",
+        "logo": {
+          "url": "https:\/\/content.presspage.com\/uploads\/2519\/500_fastnedlogo-2.jpg",
+          "category": "NETWORK",
+          "type": "jpeg",
+          "height": 400,
+          "width": 400
+        }
+      },
+      "brand_name": {
+        "name": "Fastned",
+        "website": "https:\/\/fastnedcharging.com\/",
+        "logo": {
+          "url": "https:\/\/content.presspage.com\/uploads\/2519\/500_fastnedlogo-2.jpg",
+          "category": "NETWORK",
+          "type": "jpeg",
+          "height": 400,
+          "width": 400
+        }
+      },
+      "time_zone": "Europe\/Zurich",
+      "charging_when_closed": true,
+      "access_type": "Public",
+      "related_locations": [],
+      "support_phone_number": "+(41)-(78)-8442070",
+      "energy_mix": {
+        "is_green_energy": true
+      },
+      "heavy_vehicles": {
+        "heavy_vehicles_height": null,
+        "heavy_vehicles_width": null,
+        "heavy_vehicles_length": null,
+        "heavy_vehicles_mass": null,
+        "heavy_vehicles_restrictions": [
+          "N1",
+          "N2",
+          "N3"
+        ],
+        "heavy_vehicles_dedicated": true
+      },
+      "administrative_areas": {
+        "state_province": "Waadt",
+        "municipality": "Riviera-Pays-d'Enhaut"
+      },
+      "charging_behaviour": {
+        "code": "1",
+        "description": "Mainly morning charging, and some mixed afternoon and evening charging."
+      },
+      "location_type": [
+        {
+          "code": "PARKING_LOT",
+          "description": "PARKING_LOT"
+        }
+      ],
+      "adhoc_authorisation_payment_method": [
+        {
+          "code": "TERMINAL_IN_APP",
+          "description": ""
+        },
+        {
+          "code": "SERVICE_PROVIDER_RFID_CARD",
+          "description": ""
+        },
+        {
+          "code": "TERMINAL_CREDIT_CARD",
+          "description": ""
+        }
+      ],
+      "number_physical_units": 3,
+      "restrictions": []
+    },
+    {
+      "country_code": "NL",
+      "party_id": "ECO",
+      "id": "52e78a1c-a0fc-11ee-8d48-42010aa40fc0",
+      "address": "A9",
+      "city": "Montreux",
+      "state": "Waadt",
+      "postal_code": "1822",
+      "country": "CHE",
+      "coordinates": {
+        "latitude": "46.43788294",
+        "longitude": "6.91606308"
+      },
+      "publish": true,
+      "last_updated": "2025-10-30T16:28:34Z",
+      "evses": [
+        {
+          "uid": "5003025",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "CREDIT_CARD_PAYABLE",
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "id": "1",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:28:44Z",
+              "max_electric_power": 300000,
+              "max_voltage": 600,
+              "max_amperage": 500
+            }
+          ],
+          "last_updated": "2025-10-30T16:07:32Z",
+          "physical_reference": "4110103",
+          "evse_id": "CHFASE4110103",
+          "hardware_manufacturer": "alpitronic GmbH",
+          "hardware_class": null,
+          "hardware_model": "HYC300",
+          "cpo_external_id": "50877",
+          "max_hardware_voltage": 1000,
+          "max_hardware_amperage": 500
+        },
+        {
+          "uid": "5003026",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "CREDIT_CARD_PAYABLE",
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "id": "1",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:28:44Z",
+              "max_electric_power": 300000,
+              "max_voltage": 600,
+              "max_amperage": 500
+            },
+            {
+              "id": "2",
+              "standard": "CHADEMO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:28:44Z",
+              "max_electric_power": 50000,
+              "max_voltage": 400,
+              "max_amperage": 125
+            }
+          ],
+          "last_updated": "2025-10-30T15:54:21Z",
+          "physical_reference": "4110104",
+          "evse_id": "CHFASE4110104",
+          "hardware_manufacturer": "alpitronic GmbH",
+          "hardware_class": null,
+          "hardware_model": "HYC300",
+          "cpo_external_id": "50877",
+          "max_hardware_voltage": 1000,
+          "max_hardware_amperage": 500
+        },
+        {
+          "uid": "5003023",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "CREDIT_CARD_PAYABLE",
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "id": "1",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:28:44Z",
+              "max_electric_power": 300000,
+              "max_voltage": 600,
+              "max_amperage": 500
+            }
+          ],
+          "last_updated": "2025-10-30T16:24:48Z",
+          "physical_reference": "4110101",
+          "evse_id": "CHFASE4110101",
+          "hardware_manufacturer": "alpitronic GmbH",
+          "hardware_class": null,
+          "hardware_model": "HYC300",
+          "cpo_external_id": "50877",
+          "max_hardware_voltage": 1000,
+          "max_hardware_amperage": 500
+        },
+        {
+          "uid": "5003024",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "CREDIT_CARD_PAYABLE",
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "id": "1",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:28:44Z",
+              "max_electric_power": 300000,
+              "max_voltage": 600,
+              "max_amperage": 500
+            },
+            {
+              "id": "2",
+              "standard": "CHADEMO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:28:44Z",
+              "max_electric_power": 50000,
+              "max_voltage": 400,
+              "max_amperage": 125
+            }
+          ],
+          "last_updated": "2025-10-30T16:28:34Z",
+          "physical_reference": "4110102",
+          "evse_id": "CHFASE4110102",
+          "hardware_manufacturer": "alpitronic GmbH",
+          "hardware_class": null,
+          "hardware_model": "HYC300",
+          "cpo_external_id": "50877",
+          "max_hardware_voltage": 1000,
+          "max_hardware_amperage": 500
+        }
+      ],
+      "opening_times": {
+        "twentyfourseven": true
+      },
+      "parking_type": "PARKING_LOT",
+      "name": "Fastned Le Pertit Lac",
+      "operator": {
+        "name": "Fastned",
+        "website": "https:\/\/fastnedcharging.com\/",
+        "logo": {
+          "url": "https:\/\/content.presspage.com\/uploads\/2519\/500_fastnedlogo-2.jpg",
+          "category": "NETWORK",
+          "type": "jpeg",
+          "height": 400,
+          "width": 400
+        }
+      },
+      "owner": {
+        "name": "Fastned",
+        "website": "https:\/\/fastnedcharging.com\/",
+        "logo": {
+          "url": "https:\/\/content.presspage.com\/uploads\/2519\/500_fastnedlogo-2.jpg",
+          "category": "NETWORK",
+          "type": "jpeg",
+          "height": 400,
+          "width": 400
+        }
+      },
+      "brand_name": {
+        "name": "Fastned",
+        "website": "https:\/\/fastnedcharging.com\/",
+        "logo": {
+          "url": "https:\/\/content.presspage.com\/uploads\/2519\/500_fastnedlogo-2.jpg",
+          "category": "NETWORK",
+          "type": "jpeg",
+          "height": 400,
+          "width": 400
+        }
+      },
+      "time_zone": "Europe\/Zurich",
+      "charging_when_closed": true,
+      "access_type": "Public",
+      "related_locations": [],
+      "support_phone_number": "+(41)-(78)-8442070",
+      "energy_mix": {
+        "is_green_energy": true
+      },
+      "heavy_vehicles": {
+        "heavy_vehicles_height": null,
+        "heavy_vehicles_width": null,
+        "heavy_vehicles_length": null,
+        "heavy_vehicles_mass": null,
+        "heavy_vehicles_restrictions": [
+          "N1",
+          "N2",
+          "N3"
+        ],
+        "heavy_vehicles_dedicated": true
+      },
+      "administrative_areas": {
+        "state_province": "Waadt",
+        "municipality": "Riviera-Pays-d'Enhaut"
+      },
+      "charging_behaviour": {
+        "code": "1",
+        "description": "Mainly morning charging, and some mixed afternoon and evening charging."
+      },
+      "location_type": [
+        {
+          "code": "PARKING_LOT",
+          "description": "PARKING_LOT"
+        }
+      ],
+      "adhoc_authorisation_payment_method": [
+        {
+          "code": "TERMINAL_IN_APP",
+          "description": ""
+        },
+        {
+          "code": "SERVICE_PROVIDER_RFID_CARD",
+          "description": ""
+        },
+        {
+          "code": "TERMINAL_CREDIT_CARD",
+          "description": ""
+        }
+      ],
+      "number_physical_units": 3,
+      "restrictions": []
+    },
+    {
+      "country_code": "NL",
+      "party_id": "ECO",
+      "id": "653a3e30-236f-11ef-b9be-42010aa40043",
+      "address": "M\u00fchleg\u00e4ssli 18",
+      "city": "Gurbr\u00fc",
+      "state": "Bern",
+      "postal_code": "3208",
+      "country": "CHE",
+      "coordinates": {
+        "latitude": "46.96121627",
+        "longitude": "7.21105107"
+      },
+      "publish": true,
+      "last_updated": "2025-10-30T16:28:50Z",
+      "evses": [
+        {
+          "uid": "5003290",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "CREDIT_CARD_PAYABLE",
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "id": "1",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:29:14Z",
+              "max_electric_power": 300000,
+              "max_voltage": 600,
+              "max_amperage": 500
+            }
+          ],
+          "last_updated": "2025-10-30T14:50:09Z",
+          "physical_reference": "4120103",
+          "evse_id": "CHFASE4120103",
+          "hardware_manufacturer": "alpitronic GmbH",
+          "hardware_class": null,
+          "hardware_model": "HYC300",
+          "cpo_external_id": "50930",
+          "max_hardware_voltage": 1000,
+          "max_hardware_amperage": 500
+        },
+        {
+          "uid": "5003291",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "CREDIT_CARD_PAYABLE",
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "id": "2",
+              "standard": "CHADEMO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:29:14Z",
+              "max_electric_power": 50000,
+              "max_voltage": 400,
+              "max_amperage": 125
+            },
+            {
+              "id": "3",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:29:14Z",
+              "max_electric_power": 300000,
+              "max_voltage": 600,
+              "max_amperage": 500
+            }
+          ],
+          "last_updated": "2025-10-30T16:28:50Z",
+          "physical_reference": "4120104",
+          "evse_id": "CHFASE4120104",
+          "hardware_manufacturer": "alpitronic GmbH",
+          "hardware_class": null,
+          "hardware_model": "HYC300",
+          "cpo_external_id": "50930",
+          "max_hardware_voltage": 1000,
+          "max_hardware_amperage": 500
+        },
+        {
+          "uid": "5003288",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "id": "1",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:29:14Z",
+              "max_electric_power": 300000,
+              "max_voltage": 600,
+              "max_amperage": 500
+            }
+          ],
+          "last_updated": "2025-10-30T02:25:11Z",
+          "physical_reference": "4120101",
+          "evse_id": "CHFASE4120101",
+          "hardware_manufacturer": "alpitronic GmbH",
+          "hardware_class": null,
+          "hardware_model": "HYC300",
+          "cpo_external_id": "50930",
+          "max_hardware_voltage": 1000,
+          "max_hardware_amperage": 500
+        },
+        {
+          "uid": "5003289",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "id": "2",
+              "standard": "CHADEMO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:29:14Z",
+              "max_electric_power": 50000,
+              "max_voltage": 400,
+              "max_amperage": 125
+            },
+            {
+              "id": "3",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:29:14Z",
+              "max_electric_power": 300000,
+              "max_voltage": 600,
+              "max_amperage": 500
+            }
+          ],
+          "last_updated": "2025-10-30T16:27:38Z",
+          "physical_reference": "4120102",
+          "evse_id": "CHFASE4120102",
+          "hardware_manufacturer": "alpitronic GmbH",
+          "hardware_class": null,
+          "hardware_model": "HYC300",
+          "cpo_external_id": "50930",
+          "max_hardware_voltage": 1000,
+          "max_hardware_amperage": 500
+        }
+      ],
+      "opening_times": {
+        "twentyfourseven": true
+      },
+      "parking_type": "ALONG_MOTORWAY",
+      "name": "Fastned Gurbr\u00fc",
+      "operator": {
+        "name": "Fastned",
+        "website": "https:\/\/fastnedcharging.com\/",
+        "logo": {
+          "url": "https:\/\/content.presspage.com\/uploads\/2519\/500_fastnedlogo-2.jpg",
+          "category": "NETWORK",
+          "type": "jpeg",
+          "height": 400,
+          "width": 400
+        }
+      },
+      "owner": {
+        "name": "Fastned",
+        "website": "https:\/\/fastnedcharging.com\/",
+        "logo": {
+          "url": "https:\/\/content.presspage.com\/uploads\/2519\/500_fastnedlogo-2.jpg",
+          "category": "NETWORK",
+          "type": "jpeg",
+          "height": 400,
+          "width": 400
+        }
+      },
+      "brand_name": {
+        "name": "Fastned",
+        "website": "https:\/\/fastnedcharging.com\/",
+        "logo": {
+          "url": "https:\/\/content.presspage.com\/uploads\/2519\/500_fastnedlogo-2.jpg",
+          "category": "NETWORK",
+          "type": "jpeg",
+          "height": 400,
+          "width": 400
+        }
+      },
+      "time_zone": "Europe\/Zurich",
+      "charging_when_closed": true,
+      "access_type": "Public",
+      "related_locations": [
+        {
+          "latitude": "46.9612442",
+          "longitude": "7.211447",
+          "name": {
+            "language": "de",
+            "text": "Gurbr\u00fc Imbiss (Fast food)"
+          }
+        }
+      ],
+      "support_phone_number": "+(41)-(78)-8442070",
+      "energy_mix": {
+        "is_green_energy": true
+      },
+      "heavy_vehicles": {
+        "heavy_vehicles_height": null,
+        "heavy_vehicles_width": null,
+        "heavy_vehicles_length": null,
+        "heavy_vehicles_mass": null,
+        "heavy_vehicles_restrictions": [
+          "N1",
+          "N2",
+          "N3",
+          "N3+O4"
+        ],
+        "heavy_vehicles_dedicated": true
+      },
+      "administrative_areas": {
+        "state_province": "Bern",
+        "municipality": "Bern-Mittelland"
+      },
+      "charging_behaviour": {
+        "code": "1",
+        "description": "Mainly morning charging, and some mixed afternoon and evening charging."
+      },
+      "location_type": [
+        {
+          "code": "ALONG_MOTORWAY",
+          "description": "ALONG_MOTORWAY"
+        }
+      ],
+      "adhoc_authorisation_payment_method": [
+        {
+          "code": "TERMINAL_IN_APP",
+          "description": ""
+        },
+        {
+          "code": "SERVICE_PROVIDER_RFID_CARD",
+          "description": ""
+        },
+        {
+          "code": "TERMINAL_CREDIT_CARD",
+          "description": ""
+        }
+      ],
+      "number_physical_units": 3,
+      "restrictions": []
+    },
+    {
+      "country_code": "NL",
+      "party_id": "ECO",
+      "id": "9e859eea-2438-11ef-b749-42010aa40043",
+      "address": "Grossacher 1A",
+      "city": "Wileroltigen",
+      "state": "Bern",
+      "postal_code": "3207",
+      "country": "CHE",
+      "coordinates": {
+        "latitude": "46.96288594",
+        "longitude": "7.22676878"
+      },
+      "publish": true,
+      "last_updated": "2025-10-30T16:26:45Z",
+      "evses": [
+        {
+          "uid": "5003296",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "CREDIT_CARD_PAYABLE",
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "id": "1",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:29:15Z",
+              "max_electric_power": 300000,
+              "max_voltage": 600,
+              "max_amperage": 500
+            }
+          ],
+          "last_updated": "2025-10-30T12:16:22Z",
+          "physical_reference": "4120201",
+          "evse_id": "CHFASE4120201",
+          "hardware_manufacturer": "alpitronic GmbH",
+          "hardware_class": null,
+          "hardware_model": "HYC300",
+          "cpo_external_id": "50931",
+          "max_hardware_voltage": 1000,
+          "max_hardware_amperage": 500
+        },
+        {
+          "uid": "5003297",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "CREDIT_CARD_PAYABLE",
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "id": "3",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:29:15Z",
+              "max_electric_power": 300000,
+              "max_voltage": 600,
+              "max_amperage": 500
+            },
+            {
+              "id": "2",
+              "standard": "CHADEMO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:29:15Z",
+              "max_electric_power": 50000,
+              "max_voltage": 400,
+              "max_amperage": 125
+            }
+          ],
+          "last_updated": "2025-10-30T15:38:02Z",
+          "physical_reference": "4120202",
+          "evse_id": "CHFASE4120202",
+          "hardware_manufacturer": "alpitronic GmbH",
+          "hardware_class": null,
+          "hardware_model": "HYC300",
+          "cpo_external_id": "50931",
+          "max_hardware_voltage": 1000,
+          "max_hardware_amperage": 500
+        },
+        {
+          "uid": "5003298",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "CREDIT_CARD_PAYABLE",
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "id": "1",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:29:15Z",
+              "max_electric_power": 300000,
+              "max_voltage": 600,
+              "max_amperage": 500
+            }
+          ],
+          "last_updated": "2025-10-30T16:26:45Z",
+          "physical_reference": "4120203",
+          "evse_id": "CHFASE4120203",
+          "hardware_manufacturer": "alpitronic GmbH",
+          "hardware_class": null,
+          "hardware_model": "HYC300",
+          "cpo_external_id": "50931",
+          "max_hardware_voltage": 1000,
+          "max_hardware_amperage": 500
+        },
+        {
+          "uid": "5003299",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "CREDIT_CARD_PAYABLE",
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "id": "2",
+              "standard": "CHADEMO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:29:15Z",
+              "max_electric_power": 50000,
+              "max_voltage": 400,
+              "max_amperage": 125
+            },
+            {
+              "id": "3",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:29:15Z",
+              "max_electric_power": 300000,
+              "max_voltage": 600,
+              "max_amperage": 500
+            }
+          ],
+          "last_updated": "2025-10-30T14:23:58Z",
+          "physical_reference": "4120204",
+          "evse_id": "CHFASE4120204",
+          "hardware_manufacturer": "alpitronic GmbH",
+          "hardware_class": null,
+          "hardware_model": "HYC300",
+          "cpo_external_id": "50931",
+          "max_hardware_voltage": 1000,
+          "max_hardware_amperage": 500
+        }
+      ],
+      "opening_times": {
+        "twentyfourseven": true
+      },
+      "parking_type": "ALONG_MOTORWAY",
+      "name": "Fastned Wileroltigen",
+      "operator": {
+        "name": "Fastned",
+        "website": "https:\/\/fastnedcharging.com\/",
+        "logo": {
+          "url": "https:\/\/content.presspage.com\/uploads\/2519\/500_fastnedlogo-2.jpg",
+          "category": "NETWORK",
+          "type": "jpeg",
+          "height": 400,
+          "width": 400
+        }
+      },
+      "owner": {
+        "name": "Fastned",
+        "website": "https:\/\/fastnedcharging.com\/",
+        "logo": {
+          "url": "https:\/\/content.presspage.com\/uploads\/2519\/500_fastnedlogo-2.jpg",
+          "category": "NETWORK",
+          "type": "jpeg",
+          "height": 400,
+          "width": 400
+        }
+      },
+      "brand_name": {
+        "name": "Fastned",
+        "website": "https:\/\/fastnedcharging.com\/",
+        "logo": {
+          "url": "https:\/\/content.presspage.com\/uploads\/2519\/500_fastnedlogo-2.jpg",
+          "category": "NETWORK",
+          "type": "jpeg",
+          "height": 400,
+          "width": 400
+        }
+      },
+      "time_zone": "Europe\/Zurich",
+      "charging_when_closed": true,
+      "access_type": "Public",
+      "related_locations": [],
+      "support_phone_number": "+(41)-(78)-8442070",
+      "energy_mix": {
+        "is_green_energy": true
+      },
+      "heavy_vehicles": {
+        "heavy_vehicles_height": null,
+        "heavy_vehicles_width": null,
+        "heavy_vehicles_length": null,
+        "heavy_vehicles_mass": null,
+        "heavy_vehicles_restrictions": [
+          "N1",
+          "N2",
+          "N3"
+        ],
+        "heavy_vehicles_dedicated": true
+      },
+      "administrative_areas": {
+        "state_province": "Bern",
+        "municipality": "Bern-Mittelland"
+      },
+      "charging_behaviour": {
+        "code": "1",
+        "description": "Mainly morning charging, and some mixed afternoon and evening charging."
+      },
+      "location_type": [
+        {
+          "code": "ALONG_MOTORWAY",
+          "description": "ALONG_MOTORWAY"
+        }
+      ],
+      "adhoc_authorisation_payment_method": [
+        {
+          "code": "TERMINAL_IN_APP",
+          "description": ""
+        },
+        {
+          "code": "SERVICE_PROVIDER_RFID_CARD",
+          "description": ""
+        },
+        {
+          "code": "TERMINAL_CREDIT_CARD",
+          "description": ""
+        }
+      ],
+      "number_physical_units": 3,
+      "restrictions": []
+    },
+    {
+      "country_code": "NL",
+      "party_id": "ECO",
+      "id": "30ac6a08-be3d-11ef-9e8c-42010aa40043",
+      "address": "Chem. de l'Oiselier",
+      "city": "Pruntrut",
+      "state": "Jura",
+      "postal_code": "2900",
+      "country": "CHE",
+      "coordinates": {
+        "latitude": "47.40450056",
+        "longitude": "7.05984086"
+      },
+      "publish": true,
+      "last_updated": "2025-10-30T12:47:59Z",
+      "evses": [
+        {
+          "uid": "5003617",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "CREDIT_CARD_PAYABLE",
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "id": "1",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:44:35Z",
+              "max_electric_power": 300000,
+              "max_voltage": 600,
+              "max_amperage": 500
+            },
+            {
+              "id": "2",
+              "standard": "CHADEMO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:44:35Z",
+              "max_electric_power": 50000,
+              "max_voltage": 400,
+              "max_amperage": 125
+            }
+          ],
+          "last_updated": "2025-10-30T11:44:35Z",
+          "physical_reference": "4110301",
+          "evse_id": "CHFASE4110301",
+          "hardware_manufacturer": null,
+          "hardware_class": null,
+          "hardware_model": null,
+          "cpo_external_id": "50986",
+          "max_hardware_voltage": null,
+          "max_hardware_amperage": null
+        },
+        {
+          "uid": "5003618",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "CREDIT_CARD_PAYABLE",
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "id": "1",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:44:35Z",
+              "max_electric_power": 300000,
+              "max_voltage": 600,
+              "max_amperage": 500
+            }
+          ],
+          "last_updated": "2025-10-30T12:47:59Z",
+          "physical_reference": "4110302",
+          "evse_id": "CHFASE4110302",
+          "hardware_manufacturer": null,
+          "hardware_class": null,
+          "hardware_model": null,
+          "cpo_external_id": "50986",
+          "max_hardware_voltage": null,
+          "max_hardware_amperage": null
+        },
+        {
+          "uid": "5003619",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "CREDIT_CARD_PAYABLE",
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "id": "1",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:44:35Z",
+              "max_electric_power": 300000,
+              "max_voltage": 600,
+              "max_amperage": 500
+            },
+            {
+              "id": "2",
+              "standard": "CHADEMO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:44:35Z",
+              "max_electric_power": 50000,
+              "max_voltage": 400,
+              "max_amperage": 125
+            }
+          ],
+          "last_updated": "2025-10-30T11:44:35Z",
+          "physical_reference": "4110303",
+          "evse_id": "CHFASE4110303",
+          "hardware_manufacturer": null,
+          "hardware_class": null,
+          "hardware_model": null,
+          "cpo_external_id": "50986",
+          "max_hardware_voltage": null,
+          "max_hardware_amperage": null
+        },
+        {
+          "uid": "5003620",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "CREDIT_CARD_PAYABLE",
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "id": "1",
+              "standard": "IEC_62196_T2_COMBO",
+              "format": "CABLE",
+              "power_type": "DC",
+              "last_updated": "2025-10-30T11:44:35Z",
+              "max_electric_power": 300000,
+              "max_voltage": 600,
+              "max_amperage": 500
+            }
+          ],
+          "last_updated": "2025-10-30T11:44:35Z",
+          "physical_reference": "4110304",
+          "evse_id": "CHFASE4110304",
+          "hardware_manufacturer": null,
+          "hardware_class": null,
+          "hardware_model": null,
+          "cpo_external_id": "50986",
+          "max_hardware_voltage": null,
+          "max_hardware_amperage": null
+        }
+      ],
+      "opening_times": {
+        "twentyfourseven": true
+      },
+      "parking_type": "ON_STREET",
+      "name": "Fastned Porrentruy",
+      "operator": {
+        "name": "Fastned",
+        "website": "https:\/\/fastnedcharging.com\/",
+        "logo": {
+          "url": "https:\/\/content.presspage.com\/uploads\/2519\/500_fastnedlogo-2.jpg",
+          "category": "NETWORK",
+          "type": "jpeg",
+          "height": 400,
+          "width": 400
+        }
+      },
+      "owner": {
+        "name": "Fastned",
+        "website": "https:\/\/fastnedcharging.com\/",
+        "logo": {
+          "url": "https:\/\/content.presspage.com\/uploads\/2519\/500_fastnedlogo-2.jpg",
+          "category": "NETWORK",
+          "type": "jpeg",
+          "height": 400,
+          "width": 400
+        }
+      },
+      "brand_name": {
+        "name": "Fastned",
+        "website": "https:\/\/fastnedcharging.com\/",
+        "logo": {
+          "url": "https:\/\/content.presspage.com\/uploads\/2519\/500_fastnedlogo-2.jpg",
+          "category": "NETWORK",
+          "type": "jpeg",
+          "height": 400,
+          "width": 400
+        }
+      },
+      "time_zone": "Europe\/Zurich",
+      "charging_when_closed": true,
+      "access_type": "Public",
+      "related_locations": [
+        {
+          "latitude": "47.4047664",
+          "longitude": "7.0599739",
+          "name": {
+            "language": "de",
+            "text": "Aire de repos de Porrentruy (Playground)"
+          }
+        },
+        {
+          "latitude": "47.404282",
+          "longitude": "7.059736",
+          "name": {
+            "language": "de",
+            "text": "Aire de repos Porrentruy, A16 Delsberg - Pruntrut (Waste management)"
+          }
+        }
+      ],
+      "support_phone_number": "+(41)-(78)-8442070",
+      "energy_mix": {
+        "is_green_energy": true
+      },
+      "heavy_vehicles": {
+        "heavy_vehicles_height": null,
+        "heavy_vehicles_width": null,
+        "heavy_vehicles_length": null,
+        "heavy_vehicles_mass": null,
+        "heavy_vehicles_restrictions": [
+          "N1",
+          "N2",
+          "N3"
+        ],
+        "heavy_vehicles_dedicated": true
+      },
+      "administrative_areas": {
+        "state_province": "Jura",
+        "municipality": "Pruntrut"
+      },
+      "facilities": [
+        "PARKING_LOT"
+      ],
+      "charging_behaviour": {
+        "code": "3",
+        "description": "Mixed behaviour between morning, afternoon, evening, overnight, and noise charging."
+      },
+      "location_type": [],
+      "adhoc_authorisation_payment_method": [
+        {
+          "code": "TERMINAL_IN_APP",
+          "description": ""
+        },
+        {
+          "code": "SERVICE_PROVIDER_RFID_CARD",
+          "description": ""
+        },
+        {
+          "code": "TERMINAL_CREDIT_CARD",
+          "description": ""
+        }
+      ],
+      "number_physical_units": 3,
+      "restrictions": []
+    }
+  ]
+}
