@@ -1,10 +1,10 @@
 import unittest
-import csv
-import os
 
 from vehicle_calculation import VehicleCalculation
 
+
 class TestBasicFunctions(unittest.TestCase):
+    """Class for testing vehicles methods"""
 
     def test_from_csv_data(self):
         data = []
@@ -30,6 +30,3 @@ class TestBasicFunctions(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-
-
-

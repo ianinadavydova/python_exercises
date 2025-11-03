@@ -1,3 +1,5 @@
+"""Module for different helpful methods"""
+
 def output_word_with_dash(input_words: str) -> str:
     """
     function replaces spaces to dashes
@@ -9,7 +11,7 @@ def output_word_with_dash(input_words: str) -> str:
     ''
     """
     output = input_words.replace(" ", "-")
-    return (output)
+    return output
 
 def output_person_info(input_surname: str, input_name: str, input_age: int) -> str:
     """
@@ -21,7 +23,8 @@ def output_person_info(input_surname: str, input_name: str, input_age: int) -> s
     >>> output_person_info("Иван", "Иванов", 25)
     'Вас зовут Иванов Иван. Ваш возраст: 25'
     """
-    output = "Вас зовут " + input_name.capitalize() + " " + input_surname.capitalize() + ". Ваш возраст: " + str(input_age)
+    output = ("Вас зовут " + input_name.capitalize() + " "\
+              + input_surname.capitalize() + ". Ваш возраст: " + str(input_age))
     return output
 
 def make_convert(int_number:int) -> tuple:
@@ -71,24 +74,23 @@ def convert_hex_bin(num: str) -> str:
     return bin(int_num)[2:]
 
 def align_numbers(input_2_digits_number, input_3_digits_number, input_4_digits_number) -> str:
-    return(f"{input_2_digits_number:>4}" + "\n"
+    """Method for format numbers"""
+    return (f"{input_2_digits_number:>4}" + "\n"
            + f"{input_3_digits_number:>4}" + "\n"
            + f"{input_4_digits_number:>4}")
 
 def print_square_of_figures(input_s_rectangle, input_s_triangle) -> str:
-        """
-        Returns formatted string with squares of figures.
-        >>> print_square_of_figures(5, 3)
-        'Sп = 5.00; Sт = 3.00.'
-        >>> print_square_of_figures(2.345, 7.891)
-        'Sп = 2.35; Sт = 7.89.'
-        """
-        output = f"Sп = {float(input_s_rectangle):.2f}; Sт = {float(input_s_triangle):.2f}."
-        return output
+    """
+    Returns formatted string with squares of figures.
+    >>> print_square_of_figures(5, 3)
+    'Sп = 5.00; Sт = 3.00.'
+    >>> print_square_of_figures(2.345, 7.891)
+    'Sп = 2.35; Sт = 7.89.'
+    """
+    output = f"Sп = {float(input_s_rectangle):.2f}; Sт = {float(input_s_triangle):.2f}."
+    return output
 
 if __name__ == "__main__":
     print(convert_hex_bin("5f"))
     import doctest
     print(doctest.testmod(verbose=True))
-
-
