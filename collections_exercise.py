@@ -6,7 +6,8 @@ def return_day_or_index(day_or_index):
         "Thursday": 4,
         "Friday": 5,
         "Saturday": 6,
-        "Sunday": 7}
+        "Sunday": 7
+    }
 
     if day_or_index in days.values():
         for i in days.keys():
