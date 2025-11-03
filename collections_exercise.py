@@ -35,7 +35,7 @@ def return_grades_counts(grades_dic):
         counts[grade] = counts.get(grade, 0) + 1
     return counts
 
-
+# exercise 3
 def find_lesson_days(lesson):
     schedule = {
         1: ["math", "informatics", "literature"],
