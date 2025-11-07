@@ -1,3 +1,4 @@
+import os
 import unittest
 
 import requests
@@ -15,9 +16,11 @@ def get_test_data_versions():
 class TestCsvData(unittest.TestCase):
 
     def setUp(self):
+        token = os.getenv("TOKEN")
         self.headers = {
             "accept": "application/json",
-            "Authorization": "Token DG5rv4GfXMCK06EH9Bjq0WbAr2LhTmGtUha3rWaMYzbJKnsr"
+            #"Authorization": "Token DG5rv4GfXMCK06EH9Bjq0WbAr2LhTmGtUha3rWaMYzbJKnsr"
+            "Authorization": f"Token {token}",
         }
 
 

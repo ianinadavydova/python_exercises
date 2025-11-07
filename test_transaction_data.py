@@ -8,7 +8,7 @@ class TestCsvData(unittest.TestCase):
 
     def setUp(self):
         """Load CSV data and skip header row"""
-        with open("export-token-0xa1290d69c65a6fe4df752f95823fae25cb99e5a7.csv", "r", encoding="utf-8") as f:
+        with open("export-0xa1290d69c65a6fe4df752f95823fae25cb99e5a7.csv", "r", encoding="utf-8") as f:
             reader = csv.reader(f)
             self.rows = [row for row in reader if any(cell.strip() for cell in row)]
 

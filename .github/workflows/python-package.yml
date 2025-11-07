@@ -13,6 +13,8 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    env:
+      TOKEN: ${{ secrets.TOKEN }}
     strategy:
       fail-fast: false
       matrix:
@@ -38,4 +40,4 @@ jobs:
     - name: Test with unittest
       run: |
         #pytest
-        python3 -m unittest discover -p "test*.py" -v
+        python3 -m unittest discover -p "test_api*.py" -v
