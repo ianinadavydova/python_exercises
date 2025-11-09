@@ -1,4 +1,11 @@
+"""Module for working with days and schedules."""
+
 def return_day_or_index(day_or_index):
+    """
+    Function for returning days by index
+    :param day_or_index:
+    :return:
+    """
     days = {
         "Monday": 1,
         "Tuesday": 2,
@@ -63,4 +70,3 @@ def find_lesson_days(lesson):
         return days_found
     else:
         return f"Lesson '{lesson}' not found in the schedule."
-
