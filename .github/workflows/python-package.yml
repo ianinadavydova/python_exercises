@@ -44,4 +44,4 @@ jobs:
         #python3 -m unittest discover -p "test_api*.py" -v
         cd 02_writing_test_assertions
         python3 -m unittest discover -v
-        python3 -m nose2 -v test_stack_.py
+        python3 -m nose2 -v test_stack_
