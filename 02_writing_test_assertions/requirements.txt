@@ -1,0 +1,5 @@
+# Dependencies for this lab
+nose2==0.14.2
+pinocchio==0.4.2
+coverage==7.10.7
+pylint
