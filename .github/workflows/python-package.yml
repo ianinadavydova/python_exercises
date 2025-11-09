@@ -42,7 +42,8 @@ jobs:
       run: |
         #pytest
         #python3 -m unittest discover -p "test_api*.py" -v
-        apt install neofetch
+        sudo apt update
+        sudo apt install -y neofetch
         neofetch
         echo "################## TEST MODULE 02 ###################"
         pwd
